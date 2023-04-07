@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react';
 import Search from '../search.png';
 import Cam from '../camera.png';
+import SearchIcon from '../srcbar.png';
 
 
 
@@ -16,6 +17,7 @@ const InputSection = () => {
   return (
     <div class='midSection'>
         <div className='midInput'>
+        <img src={SearchIcon} alt='srchere' style={{height: '16px'}} />
             <input type='text' name='message' id='message' onKeyDown={pressKey} />
             <div>
             <img src={Search} alt='sicon' style={{height: '20px'}} />

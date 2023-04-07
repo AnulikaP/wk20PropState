@@ -4,7 +4,7 @@ import Icon from '../dots.png';
 const Dots = () => {
   return (
     <div>
-        <img src={Icon}  alt='search' style={{width: '20px'}}/>
+        <img src={Icon}  alt='search' style={{width: '16px'}}/>
     </div>
   )
 }
